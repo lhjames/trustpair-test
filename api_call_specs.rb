@@ -1,4 +1,5 @@
 require 'rspec'
+require_relative 'api_call'
 
 RSpec.describe ApiRest do
   context '#posts' do
